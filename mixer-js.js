@@ -1,9 +1,3 @@
-const minhaVariavel = 'o que sera que dá'
-
-function myFunction() {
-	document.getElementById("play").innerHTML = minhaVariavel;
-}
-
 function toqueDJ() {
 	/*
 	Tocar audios
