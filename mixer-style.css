@@ -1,3 +1,7 @@
+/*
+=======GLOBAL=======
+*/
+
 body {
 	background-color: tomato;
 }
@@ -5,6 +9,15 @@ body {
 h2 {
 	text-align: center;
 }
+
+audio {
+	width: 100%;
+	
+}
+
+/*
+=======MIXER=======
+*/
 
 #quadro-total {
 	border: 2px solid #000;
@@ -63,13 +76,13 @@ h2 {
 
 }
 
-.legenda {
-
-}
+/*
+=======VISUAL=======
+*/
 
 #visual {
 	margin: 1em 1em 0 1em;
-	height: 200px;
+	height: auto;
 	background-color: brown;
 	display: grid;
 	/*display: flex;
@@ -78,14 +91,14 @@ h2 {
 
 .canais-visual {
 	margin: 0.3em;
+	height: auto;
 	border: 2px solid orange;
 	border-radius: 10px;
-	height: auto;
 }
 
-#controles {
-	
-}
+/*
+=======CONTROLES=======
+*/
 
 .linha-tempo {
 	height: 30px;
