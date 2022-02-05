@@ -1,0 +1,110 @@
+body {
+	background-color: tomato;
+}
+
+h2 {
+	text-align: center;
+}
+
+#quadro-total {
+	border: 2px solid #000;
+	background-color: blue;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+#mixer-outer{
+	margin: 0 1em 1em 1em;
+	height: 200px;
+	background-color: orange;
+	display: flex;
+	justify-content: center;
+}
+
+#mixer-inner {
+	width: 80%;
+	background-color: grey;	
+	/*display: grid;
+	grid-template-columns: auto auto auto auto;
+	*/
+	display: grid;
+	justify-content: center;
+}
+
+#container-canais {
+	display: flex;
+	justify-content: center;
+
+}
+
+#container-legenda {
+	display: flex;
+	justify-content: center;
+}
+
+.canais-mixer {
+	margin: auto;
+	width: 20%;
+	height: 100px;
+	border: 2px solid red;
+	border-radius: 5px;
+	background-image: url(./assets/img-teste.svg);
+}
+
+.canais-mixer:hover {
+	background-color: red;
+}
+
+.canais-mixer.legenda {
+	border: 2px solid #999;
+	height: 20px;
+	text-align: center;
+
+}
+
+.legenda {
+
+}
+
+#visual {
+	margin: 1em 1em 0 1em;
+	height: 200px;
+	background-color: brown;
+	display: grid;
+	/*display: flex;
+	justify-content: center;*/
+}
+
+.canais-visual {
+	margin: 0.3em;
+	border: 2px solid orange;
+	border-radius: 10px;
+	height: auto;
+}
+
+#controles {
+	
+}
+
+.linha-tempo {
+	height: 30px;
+	margin: 0 1em 0 1em;
+	background-color: green;
+}
+
+.play-pause-block {
+	height: 40px;
+	margin: 0 1em 0 1em;
+	background-color: yellow;
+	opacity: 80%;
+	text-align: center;
+}
+
+.button_tocar {
+	background-color: #665;
+	height: 20px;
+	margin: 1em 1em;
+	border-radius: 5px;
+	background-image: url(./assets/.svg);
+}
