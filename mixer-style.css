@@ -12,7 +12,11 @@ h2 {
 
 audio {
 	width: 100%;
-	
+}
+
+footer {
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 /*
